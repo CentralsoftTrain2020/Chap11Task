@@ -43,7 +43,8 @@ public abstract class TangibleAssset {
 		this.color = color;
 	}
 
-	
+
+
 
 
 }

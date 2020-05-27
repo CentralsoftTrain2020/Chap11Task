@@ -1,8 +1,7 @@
 package kazuhoSaito.renshu3;
 
 public abstract class TangibleAssset extends Asset{
-	String name;
-	int price;
+
 	String color;
 
 
