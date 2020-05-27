@@ -1,6 +1,6 @@
 package yoheiOno.renshu4;
 
-public abstract class TangibleAsset implements Asset Thing {
+public abstract class TangibleAsset extends Asset implements Thing {
 
 	String name;
 	int price;
@@ -9,7 +9,7 @@ public abstract class TangibleAsset implements Asset Thing {
 
 
 	public TangibleAsset(String name, int price, String color ,double weight) {
-		this.name = name;
+		super(name);
 		this.price = price;
 		this.color = color;
 		this.weight = weight;
