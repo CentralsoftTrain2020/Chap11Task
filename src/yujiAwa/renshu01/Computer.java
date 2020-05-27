@@ -12,7 +12,7 @@ class Computer extends TangibleAsset{
 	}
 
 	public String toString() {
-		return "TangibleAsset [name=" + name + ", price=" + price + ", color=" + color + "makerName" + makerName +"]";
+		return "TangibleAsset [name=" + name + ", price=" + price + ", color=" + color + "makerName=" + makerName +"]";
 	}
 
 
