@@ -2,7 +2,7 @@ package Taiki_Ujiie.renshu3;
 
 public interface Thing {
 
-	void getWeight();
-	void setWeight();
+	double getWeight();
+	void setWeight(double weight);
 
 }
