@@ -3,7 +3,13 @@ package kazuhoSaito.renshu3;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+
+		TangibleAssset ta1,ta2;
+		ta1=new Book("本",500,"赤","本の会社");
+		ta2=new Computer("コンピューター", 100000," 黒", "PCの会社");
+
+		System.out.println(ta1.toString());
+		System.out.println(ta2.toString());
 
 	}
 
