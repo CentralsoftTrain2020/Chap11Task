@@ -31,7 +31,7 @@ public class TangibleAsset extends Assent implements Thing {
 		return color;
 	}
 
-	public double setWeight() {
+	public void setWeight() {
 		this.weight = weight;
 	}
 

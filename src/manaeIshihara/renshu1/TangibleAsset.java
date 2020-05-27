@@ -10,8 +10,10 @@ public abstract class TangibleAsset extends Asset {
 			this.color =color;
 	}
 		
-		public String getColor() {return this.color;}
-		public double getWaight() {return this.weight;}
+		public String getColor() {
+			return this.color;}
+		public double getWaight() {
+			return this.weight;}
 		public void setWaight(double weight) {
 			this.weight = weight;
 					}

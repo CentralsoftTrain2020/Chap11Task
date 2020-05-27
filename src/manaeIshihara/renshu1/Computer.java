@@ -11,5 +11,11 @@ public class Computer extends TangibleAsset{
 	}
 	
 	
-	public String getIbsn() {return this.makerName;}
+	public String getIbsn() {
+		return this.makerName;
+		}
+	
+	public String toString() {
+		return "Computer [makerName=" + makerName + ", name=" + name + ", price=" + price + ", color=" + color + "]";
+	}
 }
