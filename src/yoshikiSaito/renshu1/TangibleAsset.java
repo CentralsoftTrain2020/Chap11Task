@@ -1,4 +1,4 @@
-package yoheiOno.renshu1;
+package yoshikiSaito.renshu1;
 
 public abstract class TangibleAsset {
 	String name;
@@ -12,14 +12,20 @@ public abstract class TangibleAsset {
 	}
 
 	public String getName() {
-		return name;
-	}
-	public int getPrice() {
-		return price;
-	}
-	public String getColor() {
-		return color;
+		return this.name;
 	}
 
+	public int getPrice() {
+		return this.price;
+	}
+
+	public String getColor() {
+		return this.color;
+	}
+
+	@Override
+	public String toString() {
+		return "TangibleAsset [name=" + name + ", price=" + price + ", color=" + color + "]";
+	}
 
 }

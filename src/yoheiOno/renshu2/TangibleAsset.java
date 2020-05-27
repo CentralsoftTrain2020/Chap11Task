@@ -1,19 +1,16 @@
-package yoheiOno.renshu1;
+package yoheiOno.renshu2;
 
-public abstract class TangibleAsset {
-	String name;
+public abstract class TangibleAsset extends Asset {
+
 	int price;
 	String color;
 
 	public TangibleAsset(String name, int price, String color) {
-		this.name = name;
+		super(name);
 		this.price = price;
 		this.color = color;
 	}
 
-	public String getName() {
-		return name;
-	}
 	public int getPrice() {
 		return price;
 	}
