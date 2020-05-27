@@ -9,4 +9,8 @@ public class Computer extends TangibleAsset {
 	public String getMakerName() {
 		return this.makerName;
 	}
+	public String toString() {
+		return "Computer [makerName=" + makerName + ", name=" + name + ", price=" + price + ", color=" + color + "]";
+	}
+
 }
