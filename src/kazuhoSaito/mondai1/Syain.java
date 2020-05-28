@@ -4,6 +4,7 @@ public class Syain {
 
 	String name;
 	int salary;
+
 	public Syain(String name, int salary) {
 		super();
 		this.name = name;
