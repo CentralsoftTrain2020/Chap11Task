@@ -8,4 +8,8 @@ public class Computer extends TangibleAsset{
 		this.makerName = makerName;
 	}
 	public String getmakerName() {return this.makerName;}
+	@Override
+	public String toString() {
+		return "Computer [makerName=" + makerName + ", name=" + name + ", place=" + place + ", color=" + color + "]";
+	}
 }

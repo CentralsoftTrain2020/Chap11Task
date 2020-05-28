@@ -4,7 +4,7 @@ public class Main {
 
 
 		public static void main(String[] args) {
-
+			// TODO 自動生成されたメソッド・スタブ
 			TangibleAsset ta01,ta02;
 			ta01=new book("漫画",545,"青","BOOKs COMPANY");
 			ta02=new Computer("パソコン", 200000," グレー", "ComputerSystems");
