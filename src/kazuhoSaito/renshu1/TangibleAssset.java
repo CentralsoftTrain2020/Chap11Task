@@ -1,6 +1,6 @@
 package kazuhoSaito.renshu1;
 
-public abstract class TangibleAssset {
+public abstract class TangibleAssset  {
 	String name;
 	int price;
 	String color;
