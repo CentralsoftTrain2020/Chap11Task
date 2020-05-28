@@ -4,7 +4,7 @@ public class Shain {
 
 	private String name;
 	private int kihonkyu;
-	Address address;
+	private Address address;
 
 	public Shain(String name, int kihonkyu, Address address) {
 		super();
