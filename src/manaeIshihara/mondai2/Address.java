@@ -3,25 +3,19 @@ package manaeIshihara.mondai2;
 public class Address {
 
 	int yuubinbango;
-	String ken;
+	String todouhuken;
 	String shichou;
 	
-	public Address(int yuubinbango, String ken, String shichou) {
+	public Address(int yuubinbango, String todouhuken, String shichou) {
 		super();
 		this.yuubinbango = yuubinbango;
-		this.ken = ken;
+		this.todouhuken = todouhuken;
 		this.shichou = shichou;
 	}
-	
-	
-	
 
 	public String toString() {
-		return "Address [yuubinbango=" + yuubinbango + ", ken=" + ken + ", shichou=" + shichou+ "]";
+		return "Address [yuubinbango=" + yuubinbango + ", todouhuken=" + todouhuken + ", shichou=" + shichou+ "]";
 	}
-
-
-
 
 	public int getYuubinbango() {
 		return yuubinbango;
@@ -31,12 +25,12 @@ public class Address {
 		this.yuubinbango = yuubinbango;
 	}
 
-	public String getKen() {
-		return ken;
+	public String getTodouhuen() {
+		return todouhuken;
 	}
 
-	public void setKen(String ken) {
-		this.ken = ken;
+	public void setTodouhuen(String todouhuken) {
+		this.todouhuken = todouhuken;
 	}
 
 	public String getShichou() {
