@@ -1,7 +1,5 @@
 package ishibashiSeiga.renshu1;
 
-import renshu1.TAngibleAsset;
-
 public class Computer extends TAngibleAsset{
 	
 	String makerName;
@@ -27,9 +25,9 @@ public class Computer extends TAngibleAsset{
 		
 	}
 	
-	@Override
 	public void setWeight(double weight) {
-		// TODO 自動生成されたメソッド・スタブ
+		
+		return;
 		
 	}
 	

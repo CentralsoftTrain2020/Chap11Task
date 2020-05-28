@@ -2,7 +2,6 @@ package yoheiOno.renshu4;
 
 public abstract class TangibleAsset extends Asset implements Thing {
 
-	String name;
 	int price;
 	String color;
 	double weight;
