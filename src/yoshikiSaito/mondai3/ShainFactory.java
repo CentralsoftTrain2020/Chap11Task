@@ -1,23 +1,22 @@
 package yoshikiSaito.mondai3;
 
 public class ShainFactory {
-	private Shain shain;
 
-	public ShainFactory(String shain) {
-		super();
-		if(shain.equals("HiraShain")) {
-			this.shain = new HiraShain();
-		}else if(shain.equals("Shunin")) {
-			this.shain = new Shunin();
-		}else if(shain.equals("Bucho"))
-		this.shain = new Bucho();
-	}
 
-	public Shain getShain() {
+	public Shain getShain(String name) {
+
+		Shain shain ;
+		if (name.equals("HiraShain")) {
+			shain = new HiraShain();
+		} else if (name.equals("Shunin")) {
+			shain = new Shunin();
+		} else if (name.equals("Bucho")) {
+			shain = new Bucho();
+		}
+		else {
+			shain= null;
+		}
 		return shain;
 	}
-
-
-
 
 }
