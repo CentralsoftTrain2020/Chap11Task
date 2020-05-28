@@ -19,7 +19,7 @@ public class Syain {
 
 	@Override
 	public String toString() {
-		return "Syain [name=" + name + ", salary=" + salary + ", adrress=" + adrress.toString() + "]";
+		return "Syain [name=" + name + ", salary=" + salary + ", adrress=" + adrress + "]";
 	}
 
 
