@@ -10,9 +10,9 @@ public class Main {
 		ta01=new Shain("お金",150000,ta02);
 
 		String str1 = ta01.toString();
-		String str2 = ta02.toString();
+
 		System.out.println(str1);
-		System.out.println(str2);
+
 
 	}
 
