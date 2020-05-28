@@ -1,8 +1,6 @@
 package kazuhoSaito.mondai3;
 
-public class Syain {
+public abstract class Syain {
 
-	public void standUp() {
-		System.out.println("立った");
-	}
+	public abstract void standUp() ;
 }
