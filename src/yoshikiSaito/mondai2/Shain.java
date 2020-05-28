@@ -1,10 +1,9 @@
-package Taiki_Ujiie.mondai2;
+package yoshikiSaito.mondai2;
 
 public class Shain {
-
 	private String name;
 	private int kihonkyu;
-	private Address address;
+	Address address;
 
 	public Shain(String name, int kihonkyu, Address address) {
 		super();
@@ -13,8 +12,17 @@ public class Shain {
 		this.address = address;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public int getKihonkyu() {
+		return kihonkyu;
+	}
+
 	@Override
 	public String toString() {
-		return "Shain [name=" + name + ", kihonkyu=" + kihonkyu + ", address=" + address + "]";
+		return "Shain [name=" + name + ", kihonkyu=" + kihonkyu + ", address=" + address.toString() + "]";
 	}
+
 }
