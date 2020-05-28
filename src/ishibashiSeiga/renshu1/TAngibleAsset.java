@@ -1,7 +1,5 @@
 package ishibashiSeiga.renshu1;
 
-import renshu1.Thing;
-
 public abstract class TAngibleAsset extends Asset implements Thing{
 	
 	String color;
