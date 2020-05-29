@@ -10,7 +10,7 @@ public class Bucho extends Shain {
 	@Override
 	public int getsaraly() {
 		// TODO 自動生成されたメソッド・スタブ
-		return kihonkyu*110;
+		return super.kihonkyu*110;
 	}
 
 }

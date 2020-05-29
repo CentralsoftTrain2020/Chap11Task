@@ -10,7 +10,7 @@ public class Shunin extends Shain {
 	@Override
 	public int getsaraly() {
 		// TODO 自動生成されたメソッド・スタブ
-		return kihonkyu*2;
+		return super.kihonkyu*2;
 	}
 
 }

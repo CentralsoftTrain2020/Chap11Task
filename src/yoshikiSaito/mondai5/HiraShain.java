@@ -10,7 +10,7 @@ public class HiraShain extends Shain{
 	@Override
 	public int getsaraly() {
 		// TODO 自動生成されたメソッド・スタブ
-		return kihonkyu;
+		return super.kihonkyu;
 	}
 
 
