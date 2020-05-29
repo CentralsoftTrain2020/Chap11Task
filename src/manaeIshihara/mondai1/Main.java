@@ -1,16 +1,14 @@
-package ishibashiSeiga.mondai1;
+package manaeIshihara.mondai1;
 
 public class Main {
-
+	
 	public static void main(String[] args) {
 
-		Shain s = new Shain("石橋",200000,30);
-
+		Shain s ;
+		s = new Shain("いしはら",10000);
+		
 		String str = s.toString();
-
 		System.out.println(str);
-
-
 	}
-
 }
+	

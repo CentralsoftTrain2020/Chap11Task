@@ -1,15 +1,11 @@
-package ishibashiSeiga.mondai1;
+package hayateOta.mondai1;
 
 public class Main {
 
 	public static void main(String[] args) {
-
-		Shain s = new Shain("石橋",200000,30);
-
+		Shain s = new Shain("太田", 200000);
 		String str = s.toString();
-
 		System.out.println(str);
-
 
 	}
 
