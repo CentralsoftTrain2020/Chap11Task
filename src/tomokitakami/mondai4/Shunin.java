@@ -1,4 +1,5 @@
-package tomokitakami.mondai3;
+package tomokitakami.mondai4;
+
 
 public class Shunin extends Shain{
 	@Override
