@@ -4,12 +4,11 @@ public class Kaicho {
 	Shain shain;
 	ShainFactory sfactory;
 
-	public void kaicho() {
+	public Kaicho() {
 	sfactory = new ShainFactory();
 	}
 
 	public Shain prepare(String args) {
-		sfactory = new ShainFactory();
 		shain = sfactory.getShain(args);
 		return shain;
 	}
